@@ -1,0 +1,69 @@
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\CarParts.exe.config
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\CarParts.exe
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\CarParts.pdb
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.exe
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.pdb
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.Authentification.resources
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Google.Protobuf.dll
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\MySql.Data.dll
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Renci.SshNet.dll
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\MySql.Data.xml
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.Main.resources
+C:\Users\Lenovo\Desktop\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\A.E.SCryptLibrary.dll
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\CarParts.exe.config
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\CarParts.exe
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\CarParts.pdb
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\A.E.SCryptLibrary.dll
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Google.Protobuf.dll
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\MySql.Data.dll
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Renci.SshNet.dll
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Core.WinForms.dll
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Licensing.dll
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Shared.Base.dll
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\BouncyCastle.Crypto.dll
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\MySql.Data.xml
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Core.WinForms.xml
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\bin\Debug\Syncfusion.Shared.Base.xml
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.csprojAssemblyReference.cache
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.Authentification.resources
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.Main.resources
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.Properties.Resources.resources
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.csproj.GenerateResource.cache
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.csproj.CoreCompileInputs.cache
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.csproj.CopyComplete
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.exe
+D:\Учёба\Курсовая работа БД\CarParts\CarParts\obj\Debug\CarParts.pdb
+D:\Учёба\CarParts\CarParts\bin\Debug\CarParts.exe.config
+D:\Учёба\CarParts\CarParts\bin\Debug\CarParts.exe
+D:\Учёба\CarParts\CarParts\bin\Debug\CarParts.pdb
+D:\Учёба\CarParts\CarParts\bin\Debug\A.E.SCryptLibrary.dll
+D:\Учёба\CarParts\CarParts\bin\Debug\Google.Protobuf.dll
+D:\Учёба\CarParts\CarParts\bin\Debug\MySql.Data.dll
+D:\Учёба\CarParts\CarParts\bin\Debug\Renci.SshNet.dll
+D:\Учёба\CarParts\CarParts\bin\Debug\Syncfusion.Core.WinForms.dll
+D:\Учёба\CarParts\CarParts\bin\Debug\Syncfusion.Licensing.dll
+D:\Учёба\CarParts\CarParts\bin\Debug\Syncfusion.Shared.Base.dll
+D:\Учёба\CarParts\CarParts\bin\Debug\BouncyCastle.Crypto.dll
+D:\Учёба\CarParts\CarParts\bin\Debug\MySql.Data.xml
+D:\Учёба\CarParts\CarParts\bin\Debug\Syncfusion.Core.WinForms.xml
+D:\Учёба\CarParts\CarParts\bin\Debug\Syncfusion.Shared.Base.xml
+D:\Учёба\CarParts\CarParts\obj\Debug\CarParts.csprojAssemblyReference.cache
+D:\Учёба\CarParts\CarParts\obj\Debug\CarParts.Authentification.resources
+D:\Учёба\CarParts\CarParts\obj\Debug\CarParts.Main.resources
+D:\Учёба\CarParts\CarParts\obj\Debug\CarParts.Properties.Resources.resources
+D:\Учёба\CarParts\CarParts\obj\Debug\CarParts.csproj.GenerateResource.cache
+D:\Учёба\CarParts\CarParts\obj\Debug\CarParts.csproj.CoreCompileInputs.cache
+D:\Учёба\CarParts\CarParts\obj\Debug\CarParts.csproj.CopyComplete
+D:\Учёба\CarParts\CarParts\obj\Debug\CarParts.exe
+D:\Учёба\CarParts\CarParts\obj\Debug\CarParts.pdb

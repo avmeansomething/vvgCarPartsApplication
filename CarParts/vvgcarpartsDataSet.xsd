@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vvgcarpartsDataSet" targetNamespace="http://tempuri.org/vvgcarpartsDataSet.xsd" xmlns:mstns="http://tempuri.org/vvgcarpartsDataSet.xsd" xmlns="http://tempuri.org/vvgcarpartsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="vvgcarpartsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="vvgcarpartsConnectionString (Settings)" PropertyReference="ApplicationSettings.CarParts.Properties.Settings.GlobalReference.Default.vvgcarpartsConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="autosTableAdapter" GeneratorDataComponentClassName="autosTableAdapter" Name="autos" UserDataComponentName="autosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="vvgcarpartsConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `autos`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="auto_name" DataSetColumn="auto_name" />
+              <Mapping SourceColumn="auto_model" DataSetColumn="auto_model" />
+              <Mapping SourceColumn="auto_bodytype" DataSetColumn="auto_bodytype" />
+              <Mapping SourceColumn="auto_fueltype" DataSetColumn="auto_fueltype" />
+              <Mapping SourceColumn="auto_fuelvolume" DataSetColumn="auto_fuelvolume" />
+              <Mapping SourceColumn="auto_transmissiotype" DataSetColumn="auto_transmissiotype" />
+              <Mapping SourceColumn="auto_year" DataSetColumn="auto_year" />
+              <Mapping SourceColumn="auto_drivetype" DataSetColumn="auto_drivetype" />
+              <Mapping SourceColumn="auto_photo" DataSetColumn="auto_photo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="categoriesTableAdapter" GeneratorDataComponentClassName="categoriesTableAdapter" Name="categories" UserDataComponentName="categoriesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="vvgcarpartsConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `categories`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="category_name" DataSetColumn="category_name" />
+              <Mapping SourceColumn="category_eng" DataSetColumn="category_eng" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="part_photosTableAdapter" GeneratorDataComponentClassName="part_photosTableAdapter" Name="part_photos" UserDataComponentName="part_photosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="vvgcarpartsConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `part_photos`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="photo_id" DataSetColumn="photo_id" />
+              <Mapping SourceColumn="part_id" DataSetColumn="part_id" />
+              <Mapping SourceColumn="photo_url" DataSetColumn="photo_url" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="partsTableAdapter" GeneratorDataComponentClassName="partsTableAdapter" Name="parts" UserDataComponentName="partsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="vvgcarpartsConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `parts`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="part_id" DataSetColumn="part_id" />
+              <Mapping SourceColumn="part_name" DataSetColumn="part_name" />
+              <Mapping SourceColumn="part_code" DataSetColumn="part_code" />
+              <Mapping SourceColumn="cat_id" DataSetColumn="cat_id" />
+              <Mapping SourceColumn="car_id" DataSetColumn="car_id" />
+              <Mapping SourceColumn="part_cost" DataSetColumn="part_cost" />
+              <Mapping SourceColumn="part_description" DataSetColumn="part_description" />
+              <Mapping SourceColumn="part_amount" DataSetColumn="part_amount" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="reviewsTableAdapter" GeneratorDataComponentClassName="reviewsTableAdapter" Name="reviews" UserDataComponentName="reviewsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="vvgcarpartsConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `reviews`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="review_id" DataSetColumn="review_id" />
+              <Mapping SourceColumn="reviewer_name" DataSetColumn="reviewer_name" />
+              <Mapping SourceColumn="reviewer_text" DataSetColumn="reviewer_text" />
+              <Mapping SourceColumn="reviewer_date" DataSetColumn="reviewer_date" />
+              <Mapping SourceColumn="mark" DataSetColumn="mark" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="usersTableAdapter" GeneratorDataComponentClassName="usersTableAdapter" Name="users" UserDataComponentName="usersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="vvgcarpartsConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `users`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="userId" DataSetColumn="userId" />
+              <Mapping SourceColumn="userLogin" DataSetColumn="userLogin" />
+              <Mapping SourceColumn="userPassword" DataSetColumn="userPassword" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vvgcarpartsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vvgcarpartsDataSet" msprop:Generator_UserDSName="vvgcarpartsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="autos" msprop:Generator_TableClassName="autosDataTable" msprop:Generator_TableVarName="tableautos" msprop:Generator_TablePropName="autos" msprop:Generator_RowDeletingName="autosRowDeleting" msprop:Generator_RowChangingName="autosRowChanging" msprop:Generator_RowEvHandlerName="autosRowChangeEventHandler" msprop:Generator_RowDeletedName="autosRowDeleted" msprop:Generator_UserTableName="autos" msprop:Generator_RowChangedName="autosRowChanged" msprop:Generator_RowEvArgName="autosRowChangeEvent" msprop:Generator_RowClassName="autosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="auto_name" msprop:Generator_ColumnVarNameInTable="columnauto_name" msprop:Generator_ColumnPropNameInRow="auto_name" msprop:Generator_ColumnPropNameInTable="auto_nameColumn" msprop:Generator_UserColumnName="auto_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="52" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="auto_model" msprop:Generator_ColumnVarNameInTable="columnauto_model" msprop:Generator_ColumnPropNameInRow="auto_model" msprop:Generator_ColumnPropNameInTable="auto_modelColumn" msprop:Generator_UserColumnName="auto_model" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="52" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="auto_bodytype" msprop:Generator_ColumnVarNameInTable="columnauto_bodytype" msprop:Generator_ColumnPropNameInRow="auto_bodytype" msprop:Generator_ColumnPropNameInTable="auto_bodytypeColumn" msprop:Generator_UserColumnName="auto_bodytype" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="auto_fueltype" msprop:Generator_ColumnVarNameInTable="columnauto_fueltype" msprop:Generator_ColumnPropNameInRow="auto_fueltype" msprop:Generator_ColumnPropNameInTable="auto_fueltypeColumn" msprop:Generator_UserColumnName="auto_fueltype" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="auto_fuelvolume" msprop:Generator_ColumnVarNameInTable="columnauto_fuelvolume" msprop:Generator_ColumnPropNameInRow="auto_fuelvolume" msprop:Generator_ColumnPropNameInTable="auto_fuelvolumeColumn" msprop:Generator_UserColumnName="auto_fuelvolume">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="22" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="auto_transmissiotype" msprop:Generator_ColumnVarNameInTable="columnauto_transmissiotype" msprop:Generator_ColumnPropNameInRow="auto_transmissiotype" msprop:Generator_ColumnPropNameInTable="auto_transmissiotypeColumn" msprop:Generator_UserColumnName="auto_transmissiotype" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="22" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="auto_year" msprop:Generator_ColumnVarNameInTable="columnauto_year" msprop:Generator_ColumnPropNameInRow="auto_year" msprop:Generator_ColumnPropNameInTable="auto_yearColumn" msprop:Generator_UserColumnName="auto_year" type="xs:int" minOccurs="0" />
+              <xs:element name="auto_drivetype" msprop:Generator_ColumnVarNameInTable="columnauto_drivetype" msprop:Generator_ColumnPropNameInRow="auto_drivetype" msprop:Generator_ColumnPropNameInTable="auto_drivetypeColumn" msprop:Generator_UserColumnName="auto_drivetype" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="auto_photo" msprop:Generator_ColumnVarNameInTable="columnauto_photo" msprop:Generator_ColumnPropNameInRow="auto_photo" msprop:Generator_ColumnPropNameInTable="auto_photoColumn" msprop:Generator_UserColumnName="auto_photo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="375" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="categories" msprop:Generator_TableClassName="categoriesDataTable" msprop:Generator_TableVarName="tablecategories" msprop:Generator_TablePropName="categories" msprop:Generator_RowDeletingName="categoriesRowDeleting" msprop:Generator_RowChangingName="categoriesRowChanging" msprop:Generator_RowEvHandlerName="categoriesRowChangeEventHandler" msprop:Generator_RowDeletedName="categoriesRowDeleted" msprop:Generator_UserTableName="categories" msprop:Generator_RowChangedName="categoriesRowChanged" msprop:Generator_RowEvArgName="categoriesRowChangeEvent" msprop:Generator_RowClassName="categoriesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:long" minOccurs="0" />
+              <xs:element name="category_name" msprop:Generator_ColumnVarNameInTable="columncategory_name" msprop:Generator_ColumnPropNameInRow="category_name" msprop:Generator_ColumnPropNameInTable="category_nameColumn" msprop:Generator_UserColumnName="category_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="category_eng" msprop:Generator_ColumnVarNameInTable="columncategory_eng" msprop:Generator_ColumnPropNameInRow="category_eng" msprop:Generator_ColumnPropNameInTable="category_engColumn" msprop:Generator_UserColumnName="category_eng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="part_photos" msprop:Generator_TableClassName="part_photosDataTable" msprop:Generator_TableVarName="tablepart_photos" msprop:Generator_TablePropName="part_photos" msprop:Generator_RowDeletingName="part_photosRowDeleting" msprop:Generator_RowChangingName="part_photosRowChanging" msprop:Generator_RowEvHandlerName="part_photosRowChangeEventHandler" msprop:Generator_RowDeletedName="part_photosRowDeleted" msprop:Generator_UserTableName="part_photos" msprop:Generator_RowChangedName="part_photosRowChanged" msprop:Generator_RowEvArgName="part_photosRowChangeEvent" msprop:Generator_RowClassName="part_photosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="photo_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnphoto_id" msprop:Generator_ColumnPropNameInRow="photo_id" msprop:Generator_ColumnPropNameInTable="photo_idColumn" msprop:Generator_UserColumnName="photo_id" type="xs:long" minOccurs="0" />
+              <xs:element name="part_id" msprop:Generator_ColumnVarNameInTable="columnpart_id" msprop:Generator_ColumnPropNameInRow="part_id" msprop:Generator_ColumnPropNameInTable="part_idColumn" msprop:Generator_UserColumnName="part_id" type="xs:long" />
+              <xs:element name="photo_url" msprop:Generator_ColumnVarNameInTable="columnphoto_url" msprop:Generator_ColumnPropNameInRow="photo_url" msprop:Generator_ColumnPropNameInTable="photo_urlColumn" msprop:Generator_UserColumnName="photo_url">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32767" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="parts" msprop:Generator_TableClassName="partsDataTable" msprop:Generator_TableVarName="tableparts" msprop:Generator_TablePropName="parts" msprop:Generator_RowDeletingName="partsRowDeleting" msprop:Generator_RowChangingName="partsRowChanging" msprop:Generator_RowEvHandlerName="partsRowChangeEventHandler" msprop:Generator_RowDeletedName="partsRowDeleted" msprop:Generator_UserTableName="parts" msprop:Generator_RowChangedName="partsRowChanged" msprop:Generator_RowEvArgName="partsRowChangeEvent" msprop:Generator_RowClassName="partsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="part_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnpart_id" msprop:Generator_ColumnPropNameInRow="part_id" msprop:Generator_ColumnPropNameInTable="part_idColumn" msprop:Generator_UserColumnName="part_id" type="xs:long" minOccurs="0" />
+              <xs:element name="part_name" msprop:Generator_ColumnVarNameInTable="columnpart_name" msprop:Generator_ColumnPropNameInRow="part_name" msprop:Generator_ColumnPropNameInTable="part_nameColumn" msprop:Generator_UserColumnName="part_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="part_code" msprop:Generator_ColumnVarNameInTable="columnpart_code" msprop:Generator_ColumnPropNameInRow="part_code" msprop:Generator_ColumnPropNameInTable="part_codeColumn" msprop:Generator_UserColumnName="part_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cat_id" msprop:Generator_ColumnVarNameInTable="columncat_id" msprop:Generator_ColumnPropNameInRow="cat_id" msprop:Generator_ColumnPropNameInTable="cat_idColumn" msprop:Generator_UserColumnName="cat_id" type="xs:long" />
+              <xs:element name="car_id" msprop:Generator_ColumnVarNameInTable="columncar_id" msprop:Generator_ColumnPropNameInRow="car_id" msprop:Generator_ColumnPropNameInTable="car_idColumn" msprop:Generator_UserColumnName="car_id" type="xs:int" />
+              <xs:element name="part_cost" msprop:Generator_ColumnVarNameInTable="columnpart_cost" msprop:Generator_ColumnPropNameInRow="part_cost" msprop:Generator_ColumnPropNameInTable="part_costColumn" msprop:Generator_UserColumnName="part_cost" type="xs:int" />
+              <xs:element name="part_description" msprop:Generator_ColumnVarNameInTable="columnpart_description" msprop:Generator_ColumnPropNameInRow="part_description" msprop:Generator_ColumnPropNameInTable="part_descriptionColumn" msprop:Generator_UserColumnName="part_description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="240" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="part_amount" msprop:Generator_ColumnVarNameInTable="columnpart_amount" msprop:Generator_ColumnPropNameInRow="part_amount" msprop:Generator_ColumnPropNameInTable="part_amountColumn" msprop:Generator_UserColumnName="part_amount" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="reviews" msprop:Generator_TableClassName="reviewsDataTable" msprop:Generator_TableVarName="tablereviews" msprop:Generator_TablePropName="reviews" msprop:Generator_RowDeletingName="reviewsRowDeleting" msprop:Generator_RowChangingName="reviewsRowChanging" msprop:Generator_RowEvHandlerName="reviewsRowChangeEventHandler" msprop:Generator_RowDeletedName="reviewsRowDeleted" msprop:Generator_UserTableName="reviews" msprop:Generator_RowChangedName="reviewsRowChanged" msprop:Generator_RowEvArgName="reviewsRowChangeEvent" msprop:Generator_RowClassName="reviewsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="review_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnreview_id" msprop:Generator_ColumnPropNameInRow="review_id" msprop:Generator_ColumnPropNameInTable="review_idColumn" msprop:Generator_UserColumnName="review_id" type="xs:long" minOccurs="0" />
+              <xs:element name="reviewer_name" msprop:Generator_ColumnVarNameInTable="columnreviewer_name" msprop:Generator_ColumnPropNameInRow="reviewer_name" msprop:Generator_ColumnPropNameInTable="reviewer_nameColumn" msprop:Generator_UserColumnName="reviewer_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="reviewer_text" msprop:Generator_ColumnVarNameInTable="columnreviewer_text" msprop:Generator_ColumnPropNameInRow="reviewer_text" msprop:Generator_ColumnPropNameInTable="reviewer_textColumn" msprop:Generator_UserColumnName="reviewer_text">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32767" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="reviewer_date" msprop:Generator_ColumnVarNameInTable="columnreviewer_date" msprop:Generator_ColumnPropNameInRow="reviewer_date" msprop:Generator_ColumnPropNameInTable="reviewer_dateColumn" msprop:Generator_UserColumnName="reviewer_date" type="xs:dateTime" />
+              <xs:element name="mark" msprop:Generator_ColumnVarNameInTable="columnmark" msprop:Generator_ColumnPropNameInRow="mark" msprop:Generator_ColumnPropNameInTable="markColumn" msprop:Generator_UserColumnName="mark" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="users" msprop:Generator_TableClassName="usersDataTable" msprop:Generator_TableVarName="tableusers" msprop:Generator_TablePropName="users" msprop:Generator_RowDeletingName="usersRowDeleting" msprop:Generator_RowChangingName="usersRowChanging" msprop:Generator_RowEvHandlerName="usersRowChangeEventHandler" msprop:Generator_RowDeletedName="usersRowDeleted" msprop:Generator_UserTableName="users" msprop:Generator_RowChangedName="usersRowChanged" msprop:Generator_RowEvArgName="usersRowChangeEvent" msprop:Generator_RowClassName="usersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="userId" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnuserId" msprop:Generator_ColumnPropNameInRow="userId" msprop:Generator_ColumnPropNameInTable="userIdColumn" msprop:Generator_UserColumnName="userId" type="xs:long" minOccurs="0" />
+              <xs:element name="userLogin" msprop:Generator_ColumnVarNameInTable="columnuserLogin" msprop:Generator_ColumnPropNameInRow="userLogin" msprop:Generator_ColumnPropNameInTable="userLoginColumn" msprop:Generator_UserColumnName="userLogin">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="userPassword" msprop:Generator_ColumnVarNameInTable="columnuserPassword" msprop:Generator_ColumnPropNameInRow="userPassword" msprop:Generator_ColumnPropNameInTable="userPasswordColumn" msprop:Generator_UserColumnName="userPassword">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32767" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:autos" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="categories_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:categories" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="part_photos_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:part_photos" />
+      <xs:field xpath="mstns:photo_id" />
+    </xs:unique>
+    <xs:unique name="parts_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:parts" />
+      <xs:field xpath="mstns:part_id" />
+    </xs:unique>
+    <xs:unique name="reviews_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:reviews" />
+      <xs:field xpath="mstns:review_id" />
+    </xs:unique>
+    <xs:unique name="users_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:users" />
+      <xs:field xpath="mstns:userId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
